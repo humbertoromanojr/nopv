@@ -232,6 +232,13 @@
     padding: 10px;
   }
 
+  .container-logo img {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
   .description{
     padding: 20px;
     text-align: left;
@@ -266,23 +273,26 @@
     padding: 20px 0px 0px 0px;
   }
 
-  .container-logo img {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-  }
-
   nav ul.nav-menu li a {
     font-size: 14px;
     background-color: #ffffff;
     border-bottom: none;
+    margin-top: 15px;
+  }
+
+  nav ul.nav-menu li a:hover {
+    font-size: 14px;
+    background-color: #ffffff;
+    border-bottom: none;
+    margin-top: 15px;
+    color: #ffffff;
   }
 
   nav ul li a .link-active {
     font-size: 16px;
     background-color: #ffffff;
     padding: 5px;
+    color: #222222;
   }
 
   .aboutNoPv {
