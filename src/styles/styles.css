@@ -2,7 +2,7 @@
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
-  
+
   width: 100%;
   margin: 0 auto;
 
@@ -10,7 +10,6 @@
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 8rem contain;
-
 } 
 
 .main-content h2 {
@@ -139,7 +138,6 @@
 }
 
 /* about */
-
 .aboutNoPv {
   display: flex;
   align-items: center;
@@ -155,3 +153,116 @@
   border-radius: 16px;
   border: 1px solid #6760E5;
 }
+
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+  }
+
+  .main-content h2 {
+    text-align: center;
+    color: #3F3D56;
+    margin-left: 0px;
+  }
+
+  .container-mobile {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-mobile img {
+    width: 70%;
+  }
+
+  .container-text img {
+    width: 70px;
+  }
+
+  .container-text{
+    display: flex;
+    line-height: 20px;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-balloom, .container-images, .container-footer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-balloom img {
+    width: 70%;
+  }
+
+  .description{
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+  }
+
+  .description ul{
+    width: 90%;
+  }
+    
+  .center{
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-logo img {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  nav ul.nav-menu li a {
+    font-size: 14px;
+    background-color: #ffffff;
+    border-bottom: none;
+  }
+
+  nav ul li a .link-active {
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 5px;
+  }
+
+  .aboutNoPv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .aboutNoPv img {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+ }
