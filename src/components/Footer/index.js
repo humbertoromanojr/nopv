@@ -17,7 +17,7 @@ export default function Footer(props) {
             <img src={balloom} className="image-balloom" alt="image bubbles" />
           </div>
           <div className="container-help">
-            <a href="http://nopv.whatz.me/"><img src={helpme} className="image-help" alt="image help" /></a>
+            <a href="http://nopv.whatz.me/" target="_blank"><img src={helpme} className="image-help" alt="image help" /></a>
           </div>
         </div>
         <div>

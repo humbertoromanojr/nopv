@@ -18,7 +18,9 @@ export default function About(props) {
         <div className="container-text">
           <label className="title">Sobre</label>
           <p className="center">
-          Seja para encontrar profissionais de confiança que atendam remotamente ou para agendar aquele atendimento, é só conversar com o nosso chatbot via Whatsapp que ele resolve para você.
+          Disponível para Android, iOS e web, o NoPV é uma plataforma para contratação de serviços, pois a Covid-19 está acelerando a transformação digital mais do que o Coach Agil 2.0. Com a quarentena, muitas profissões estão precisando se adaptar ao agendamento, videoconferência e pagamento online.
+          <br />
+          <Link to="#"> Saiba Mais</Link>
           </p>
           
         </div>
@@ -29,6 +31,16 @@ export default function About(props) {
         <img src={about01} className="image-about01" alt="" />
         <img src={about02} className="image-about02" alt="" />
         <img src={about03} className="image-about03" alt="" />
+      </div>
+
+      <div className="container-text">
+        <p className="center">
+        Disponível para Android, iOS e web, o NoPV é uma plataforma para contratação de serviços, pois a Covid-19 está acelerando a transformação digital mais do que o Coach Agil 2.0. Com a quarentena, muitas profissões estão precisando se adaptar ao agendamento, videoconferência e pagamento online. A Covid-19 está acelerando a transformação digital mais do que o Coach Agil 2.0. Devido ao cenário de pandemia e quarentena muitos profissionais estão ociosos, outros em adaptação ao novo mercado e clientes sem atendimento. 
+        <br /><br />
+        Disponível para Android, iOS e web, o NoPV é uma plataforma para contratação de serviços com profissionais de confiança que atendam remotamente por videoconferência digital com funcionalidades de agendamento e pagamento. 
+        <br /><br />
+        O NoPV surgiu para dar o direcionamento da demanda entre profissionais e pessoas que estão precisando de informações, porém estão com seus acessos diretos impossibilitados em decorrência das adversidades atuais.
+        </p>
       </div>
 
       <div className="container-elevation">
