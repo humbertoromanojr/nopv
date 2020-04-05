@@ -18,7 +18,7 @@ export default function Price(props) {
      
         <div className="container-text">
           <label className="title">Planos</label>
-          <p className="description">
+          <p className="center">
           Seja para encontrar profissionais de confiança que atendam remotamente ou para agendar aquele atendimento, é só conversar com o nosso chatbot via Whatsapp que ele resolve para você.
           </p>
           

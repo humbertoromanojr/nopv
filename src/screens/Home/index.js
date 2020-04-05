@@ -15,7 +15,7 @@ export default function Home(props) {
      
         <div className="container-text">
           <h2 className="titleNormal">Agende um serviço</h2>
-          <p className="description">
+          <p className="center">
             Seja para encontrar profissionais de confiança que atendam remotamente ou para agendar aquele atendimento, é só conversar com o nosso chatbot via Whatsapp que ele resolve para você.
           </p>
 

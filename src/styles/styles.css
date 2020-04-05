@@ -197,6 +197,10 @@
     text-align: center;
   }
 
+  .container-text ul{
+    padding: 20px 10px;
+  }
+
   .container-text ul li h3 button{
     color: #3F3D56;
     font-weight: bold;
