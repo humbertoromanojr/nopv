@@ -20,7 +20,7 @@ export default function Home(props) {
           </p>
 
           <div className="container-buttons">
-            <Link className="button" to="/regiter">Cadastrar</Link>
+            <Link className="button" to="/register">Cadastrar</Link>
             <Link className="button" to="/login">Entrar</Link>
           </div>
 

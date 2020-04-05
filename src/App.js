@@ -13,6 +13,8 @@ import Faq from './screens/Faq';
 import About from './screens/About';
 import Price from './screens/Price';
 import History from './screens/History';
+import Login from './screens/Login';
+import Register from './screens/Register';
  
 import './styles/app.css'
 import './styles/styles.css'
@@ -31,6 +33,8 @@ function App() {
             <Route path="/about" component={About} />
             <Route path="/price" component={Price} />
             <Route path="/history" component={History} />
+            <Route path="/login" component={Login} />
+            <Route path="/register" component={Register} />
           </div>
           <Footer />
         </BrowserRouter>

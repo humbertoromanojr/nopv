@@ -14,7 +14,7 @@ export default function Register(props) {
       <div className="container">
      
         <div className="container-text">
-          <label className="title">Login</label>
+          <label className="title">Cadastrar</label>
         </div>
         
       </div>
