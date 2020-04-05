@@ -1,4 +1,8 @@
 .main-content {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  
   width: 100%;
   margin: 0 auto;
 
@@ -12,7 +16,7 @@
 .main-content h2 {
   text-align: left;
   color: #3F3D56;
-  text-transform: uppercase;
+  margin-left: 93px;
 }
 
 .container{
@@ -41,6 +45,12 @@
   width: 800px;
 }
 
+.content-text h3 {
+  text-align: left;
+  color: #3F3D56;
+  margin-left: 93px;
+}
+
 .container-text ul li h3 button{
   color: #3F3D56;
   font-weight: bold;
@@ -55,6 +65,15 @@
   font-size: 36px;
   line-height: 56px;
   text-transform: uppercase;
+}
+
+.titleNormal{
+  color: #3F3D56;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 56px;
 }
 
 .description{
