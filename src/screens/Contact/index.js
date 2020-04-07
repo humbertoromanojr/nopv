@@ -29,12 +29,22 @@ export default function Contact(props) {
 
           <label className="title">Time</label>
           <br />
-          <div className="aboutNoPv">
-            <img src={jrdev} className="image-price01" alt="" />
-            <img src={mariana} className="image-price02" alt="" />
-            <img src={moises} className="image-price03" alt="" />
-            <img src={karla} className="image-price03" alt="" />
-            <img src={sandro} className="image-price03" alt="" />
+          <div className="time">
+            <a href="https://www.linkedin.com/in/junior-dev" target="_blank">
+              <img src={jrdev} alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/mrncstt" target="_blank">
+              <img src={mariana} className="image-price02" alt="Mariana Costa" />
+            </a>
+            <a href="https://www.linkedin.com/in/moisesrlimadesigndf" target="_blank">
+              <img src={moises} className="image-price03" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/karla-pereira" target="_blank">
+              <img src={karla} className="image-price03" alt="" />
+            </a>
+            <a href="https://github.com/SandroRomaniuc" target="_blank">
+              <img src={sandro} className="image-price03" alt="" />
+            </a>
           </div>
             
         </div>

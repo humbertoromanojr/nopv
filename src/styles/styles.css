@@ -138,7 +138,8 @@
 }
 
 /* about */
-.aboutNoPv {
+.aboutNoPv,
+.time {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,6 +154,12 @@
   border-radius: 16px;
   border: 1px solid #6760E5;
 }
+
+.time img{
+  margin-left: 20px;
+  border-radius: 16px;
+}
+
 
 @media (max-width: 576px) {
   .container {
@@ -181,10 +188,6 @@
   .container-mobile img {
     width: 70%;
     margin: 20px 0px 20px 0px;
-  }
-
-  .container-text img {
-    width: 70px;
   }
 
   .container-text{
@@ -295,19 +298,23 @@
     color: #222222;
   }
 
-  .aboutNoPv {
+  .aboutNoPv,
+  .time {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 10px;
-    margin-top: 10px;
   }
-
+  
   .aboutNoPv img {
     padding: 10px;
     margin-top: 10px;
     margin-left: 0px;
+  }
+
+  .time img {
+    width: 100%;
   }
 
  }
