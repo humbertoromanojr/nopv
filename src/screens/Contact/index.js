@@ -5,6 +5,11 @@ import Header from '../../components/NavBar';
 
 import elevation from '../../assets/images/elevation.png'
 import button from '../../assets/images/button.png';
+import moises from '../../assets/images/moises.png';
+import mariana from '../../assets/images/mariana.png';
+import karla from '../../assets/images/karla.png';
+import sandro from '../../assets/images/sandro.png';
+import jrdev from '../../assets/images/jrdev.png';
 
 export default function Contact(props) {
 
@@ -17,14 +22,21 @@ export default function Contact(props) {
         <div className="container-text">
           <label className="title">Contato</label>
           <p className="center">
-          Agradecemos qualquer feedbck ou idéia, também estamos buscando apoio para que essa solução ajude o máximo de pessoas possíl. Então não exite em entrar em contato com a gente.
+          Agradecemos qualquer feedback ou ideia. Também estamos buscando apoio para que essa solução ajude o máximo possível de pessoas. Então não hesite em entrar em contato conosco. Clique no botão abaixo para entrar em contato.
           <br />
-          <br />
-          Clique no botão abaixo para entrar em contato.
           </p>
 
-          <img src={button} className="buttonRead" /> 
-          
+
+          <label className="title">Time</label>
+          <br />
+          <div className="aboutNoPv">
+            <img src={jrdev} className="image-price01" alt="" />
+            <img src={mariana} className="image-price02" alt="" />
+            <img src={moises} className="image-price03" alt="" />
+            <img src={karla} className="image-price03" alt="" />
+            <img src={sandro} className="image-price03" alt="" />
+          </div>
+            
         </div>
         
       </div>
