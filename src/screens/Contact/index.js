@@ -8,7 +8,7 @@ import button from '../../assets/images/button.png';
 import moises from '../../assets/images/moises.png';
 import mariana from '../../assets/images/mariana.png';
 import karla from '../../assets/images/karla.png';
-import sandro from '../../assets/images/sandro.png';
+import bruno from '../../assets/images/bruno.png';
 import jrdev from '../../assets/images/jrdev.png';
 
 export default function Contact(props) {
@@ -42,8 +42,8 @@ export default function Contact(props) {
             <a href="https://www.linkedin.com/in/karla-pereira" target="_blank">
               <img src={karla} className="image-price03" alt="" />
             </a>
-            <a href="https://github.com/SandroRomaniuc" target="_blank">
-              <img src={sandro} className="image-price03" alt="" />
+            <a href="https://www.linkedin.com/in/brunoeid/" target="_blank">
+              <img src={bruno} className="image-price03" alt="" />
             </a>
           </div>
             
